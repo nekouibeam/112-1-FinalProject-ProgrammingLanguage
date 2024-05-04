@@ -18,7 +18,7 @@ public class SportCourses {
 	
 	public void courseList() {
 		String format1 = "%-15s\t%8s\t%12s\t%-10s\t%-10s\n";
-		String format2 = "%-15s\t\t%8d\t%12s\t%-10s\t%-10d\n";
+		String format2 = "%-15s\t%8d\t%12s\t%-10s\t%-10d\n";
 		System.out.printf("\n體育必修:\n");
 		System.out.printf(String.format(format1,"課程名稱", "學分", "開課時間", "老師", "選課代碼"));
 		System.out.println("-".repeat(100));
